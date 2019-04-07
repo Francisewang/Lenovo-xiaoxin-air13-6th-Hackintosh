@@ -1,0 +1,177 @@
+4:249  0:171  Found BIOS RSDP at F0120
+4:249  0:000  Printing ACPI tables from RSDP F0120 ...
+4:249  0:000   F0120: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:249  0:000    (Xsdt: BD2BC188, Rsdt: BD2BC0C4)
+4:249  0:000    BD2BC188: 'XSDT', 'CB-01', Rev: 1, Len: 260
+4:249  0:000    BD2BC0C4: 'RSDT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    Tables in Xsdt: 28
+4:249  0:000    0. BD2ED000: 'FACP', 'CB-01', Rev: 5, Len: 244
+4:249  0:000        (Dsdt: BD2C4000, Facs: BD26E000, XDsdt: BD2C4000, XFacs: 0)
+4:249  0:000        BD2C4000: 'DSDT', 'SKL', Rev: 2, Len: 144414
+4:249  0:000        BD26E000: 'FACS', Ver: 2, Len: 64
+4:249  0:000    1. BD2FB000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+4:249  0:000    2. BD2F8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 10918
+4:249  0:000    3. BD2F7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1232
+4:249  0:000    4. BD2F6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 75
+4:249  0:000    5. BD2F5000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+4:249  0:000    6. BD284000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:249  0:000    7. BD2EF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 21248
+4:249  0:000    8. BD2EE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+4:249  0:000    9. BD2EC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    10. BD2EB000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    11. BD2EA000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:249  0:000    12. BD2E9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:249  0:000    13. BD2E8000: 'WDAT', 'CB-01', Rev: 1, Len: 308
+4:249  0:000    14. BD2C3000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+4:249  0:000    15. BD2C2000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:249  0:000    16. BD2C1000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:249  0:000    17. BD2C0000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1339
+4:249  0:000    18. BD2BF000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:249  0:000    19. BD2BE000: 'BATB', 'CB-01', Rev: 1, Len: 70
+4:249  0:000    20. BD2BD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+4:249  0:000    21. BD2FC000: 'SSDT', 'PhxASD_T', Rev: 1, Len: 376
+4:249  0:000    22. BD2BB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:249  0:000    23. BD2BA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+4:249  0:000    24. BD2B9000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:249  0:000    25. BD2B8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:249  0:000    26. BD2B7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    27. BD26B000: 'UEFI', 'CB-01', Rev: 1, Len: 398
+4:249  0:000    Tables in Rsdt: 28
+4:249  0:000    0. BD2ED000: 'FACP', 'CB-01', Rev: 5, Len: 244
+4:249  0:000        (Dsdt: BD2C4000, Facs: BD26E000, XDsdt: BD2C4000, XFacs: 0)
+4:249  0:000        BD2C4000: 'DSDT', 'SKL', Rev: 2, Len: 144414
+4:249  0:000        BD26E000: 'FACS', Ver: 2, Len: 64
+4:249  0:000    1. BD2FB000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+4:249  0:000    2. BD2F8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 10918
+4:249  0:000    3. BD2F7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1232
+4:249  0:000    4. BD2F6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 75
+4:249  0:000    5. BD2F5000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+4:249  0:000    6. BD284000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:249  0:000    7. BD2EF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 21248
+4:249  0:000    8. BD2EE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+4:249  0:000    9. BD2EC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    10. BD2EB000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    11. BD2EA000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:249  0:000    12. BD2E9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:249  0:000    13. BD2E8000: 'WDAT', 'CB-01', Rev: 1, Len: 308
+4:249  0:000    14. BD2C3000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+4:249  0:000    15. BD2C2000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:249  0:000    16. BD2C1000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:249  0:000    17. BD2C0000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1339
+4:249  0:000    18. BD2BF000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:249  0:000    19. BD2BE000: 'BATB', 'CB-01', Rev: 1, Len: 70
+4:249  0:000    20. BD2BD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+4:249  0:000    21. BD2FC000: 'SSDT', 'PhxASD_T', Rev: 1, Len: 376
+4:249  0:000    22. BD2BB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:249  0:000    23. BD2BA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+4:249  0:000    24. BD2B9000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:249  0:000    25. BD2B8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:249  0:000    26. BD2B7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    27. BD26B000: 'UEFI', 'CB-01', Rev: 1, Len: 398
+4:249  0:000  Found UEFI Acpi 2.0 RSDP at BD2FD014
+4:249  0:000  Saving ACPI tables from RSDP BD2FD014 to EFI\CLOVER\ACPI\origin ...
+4:249  0:000   BD2FD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:249  0:000    (Xsdt: BD2BC188, Rsdt: BD2BC0C4)
+4:249  0:000    BD2BC188: 'XSDT', 'CB-01', Rev: 1, Len: 260
+4:249  0:000    BD2BC0C4: 'RSDT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    Tables in Xsdt: 28
+4:249  0:000    0. BD2ED000: 'FACP', 'CB-01', Rev: 5, Len: 244
+4:249  0:000        (Dsdt: BD2C4000, Facs: BD26E000, XDsdt: BD2C4000, XFacs: 0)
+4:249  0:000        BD2C4000: 'DSDT', 'SKL', Rev: 2, Len: 144414
+4:249  0:000        BD26E000: 'FACS', Ver: 2, Len: 64
+4:249  0:000    1. BD2FB000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+4:249  0:000    2. BD2F8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 10918
+4:249  0:000    3. BD2F7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1232
+4:249  0:000    4. BD2F6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 75
+4:249  0:000    5. BD2F5000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+4:249  0:000    6. BD284000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:249  0:000    7. BD2EF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 21248
+4:249  0:000    8. BD2EE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+4:249  0:000    9. BD2EC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    10. BD2EB000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    11. BD2EA000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:249  0:000    12. BD2E9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:249  0:000    13. BD2E8000: 'WDAT', 'CB-01', Rev: 1, Len: 308
+4:249  0:000    14. BD2C3000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+4:249  0:000    15. BD2C2000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:249  0:000    16. BD2C1000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:249  0:000    17. BD2C0000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1339
+4:249  0:000    18. BD2BF000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:249  0:000    19. BD2BE000: 'BATB', 'CB-01', Rev: 1, Len: 70
+4:249  0:000    20. BD2BD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+4:249  0:000    21. BD2FC000: 'SSDT', 'PhxASD_T', Rev: 1, Len: 376
+4:249  0:000    22. BD2BB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:249  0:000    23. BD2BA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+4:249  0:000    24. BD2B9000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:249  0:000    25. BD2B8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:249  0:000    26. BD2B7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    27. BD26B000: 'UEFI', 'CB-01', Rev: 1, Len: 398
+4:249  0:000    Tables in Rsdt: 28
+4:249  0:000    0. BD2ED000: 'FACP', 'CB-01', Rev: 5, Len: 244
+4:249  0:000        (Dsdt: BD2C4000, Facs: BD26E000, XDsdt: BD2C4000, XFacs: 0)
+4:249  0:000        BD2C4000: 'DSDT', 'SKL', Rev: 2, Len: 144414
+4:249  0:000        BD26E000: 'FACS', Ver: 2, Len: 64
+4:249  0:000    1. BD2FB000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+4:249  0:000    2. BD2F8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 10918
+4:249  0:000    3. BD2F7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1232
+4:249  0:000    4. BD2F6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 75
+4:249  0:000    5. BD2F5000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+4:249  0:000    6. BD284000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:249  0:000    7. BD2EF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 21248
+4:249  0:000    8. BD2EE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+4:249  0:000    9. BD2EC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    10. BD2EB000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    11. BD2EA000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:249  0:000    12. BD2E9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:249  0:000    13. BD2E8000: 'WDAT', 'CB-01', Rev: 1, Len: 308
+4:249  0:000    14. BD2C3000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+4:249  0:000    15. BD2C2000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:249  0:000    16. BD2C1000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:249  0:000    17. BD2C0000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1339
+4:249  0:000    18. BD2BF000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:249  0:000    19. BD2BE000: 'BATB', 'CB-01', Rev: 1, Len: 70
+4:249  0:000    20. BD2BD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+4:249  0:000    21. BD2FC000: 'SSDT', 'PhxASD_T', Rev: 1, Len: 376
+4:249  0:000    22. BD2BB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:249  0:000    23. BD2BA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+4:249  0:000    24. BD2B9000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:249  0:000    25. BD2B8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:249  0:000    26. BD2B7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    27. BD26B000: 'UEFI', 'CB-01', Rev: 1, Len: 398
+4:249  0:000  Found UEFI Acpi 1.0 RSDP at BD2FD000
+4:249  0:000  Printing ACPI tables from RSDP BD2FD000 ...
+4:249  0:000   BD2FD000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+4:249  0:000    (Rsdt: BD2BC000)
+4:249  0:000    BD2BC000: 'RSDT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    Tables in Rsdt: 28
+4:249  0:000    0. BD2ED000: 'FACP', 'CB-01', Rev: 5, Len: 244
+4:249  0:000        (Dsdt: BD2C4000, Facs: BD26E000, XDsdt: BD2C4000, XFacs: 0)
+4:249  0:000        BD2C4000: 'DSDT', 'SKL', Rev: 2, Len: 144414
+4:249  0:000        BD26E000: 'FACS', Ver: 2, Len: 64
+4:249  0:000    1. BD2FB000: 'TCPA', 'CB-01', Rev: 2, Len: 50
+4:249  0:000    2. BD2F8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 10918
+4:249  0:000    3. BD2F7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1232
+4:249  0:000    4. BD2F6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 75
+4:249  0:000    5. BD2F5000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+4:249  0:000    6. BD284000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+4:249  0:000    7. BD2EF000: 'SSDT', 'SaSsdt', Rev: 2, Len: 21248
+4:249  0:000    8. BD2EE000: 'SSDT', 'PerfTune', Rev: 2, Len: 1477
+4:249  0:000    9. BD2EC000: 'HPET', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    10. BD2EB000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+4:249  0:000    11. BD2EA000: 'APIC', 'CB-01', Rev: 3, Len: 188
+4:249  0:000    12. BD2E9000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+4:249  0:000    13. BD2E8000: 'WDAT', 'CB-01', Rev: 1, Len: 308
+4:249  0:000    14. BD2C3000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 410
+4:249  0:000    15. BD2C2000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+4:249  0:000    16. BD2C1000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+4:249  0:000    17. BD2C0000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 1339
+4:249  0:000    18. BD2BF000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+4:249  0:000    19. BD2BE000: 'BATB', 'CB-01', Rev: 1, Len: 70
+4:249  0:000    20. BD2BD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+4:249  0:000    21. BD2FC000: 'SSDT', 'PhxASD_T', Rev: 1, Len: 376
+4:249  0:000    22. BD2BB000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+4:249  0:000    23. BD2BA000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+4:249  0:000    24. BD2B9000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+4:249  0:000    25. BD2B8000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+4:249  0:000    26. BD2B7000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+4:249  0:000    27. BD26B000: 'UEFI', 'CB-01', Rev: 1, Len: 398
